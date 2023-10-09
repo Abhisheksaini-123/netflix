@@ -1,24 +1,47 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Netflix clone/Navbar';
+import Section from './Netflix clone/Section';
+import Section2 from './Netflix clone/Section2';
+import Section3 from './Netflix clone/Section3';
+import Section4 from './Netflix clone/Section4';
+import Section5 from './Netflix clone/Section5';
+import Foot from './Netflix clone/Foot';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+  <>
+  
+  <div className='photoback'>
+    <Navbar/>
+    <Section/>
+   </div>
+   <div>
+        <Section2/>
+
+   </div>
+   <div>
+   <Section3/>
+   </div>
+   <div>
+    <Section4/>
+   </div>
+   <div>
+  <Section5/>
+   </div>
+
+    <div>
+      <Foot/>
     </div>
+    
+
+
+  
+  </>
+
   );
 }
 

@@ -59,7 +59,7 @@ border-bottom: 5px solid grey;
 
 } 
 html{
-  background-color: black;
+  background-color: black; 
 }
 
 .section3{
@@ -120,3 +120,53 @@ padding: 10px 10px ;
     border-radius: 5px;
     padding: 10px 10px;
   }
+  
+    
+  
+  /* footer css code */
+  /* src/components/Footer.css */
+
+.footer {
+  background-color:black;
+  color:grey;
+  padding: 2rem 0;
+  text-align: center;
+  height: 500px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__logo img {
+  height: 2rem;
+  object-fit: contain;
+}
+
+.footer__bottom {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.footer__links li {
+  margin: 0 0.5rem;
+}
+
+.footer__links a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  text-decoration: underline;
+}

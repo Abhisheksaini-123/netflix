@@ -31,10 +31,10 @@ function App() {
    </div>
    <div>
   <Section5/>
+      <Foot/>
    </div>
 
     <div>
-      <Foot/>
     </div>
     
 
